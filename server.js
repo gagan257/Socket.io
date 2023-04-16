@@ -10,6 +10,7 @@ io.on('connection',(socket)=>{
     console.log('connected with socket id = ', socket.id)
 })
 
+
 app.use('/',express.static(__dirname + '/public'))
 
 server.listen(3344, ()=>{
